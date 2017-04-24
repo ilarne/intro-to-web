@@ -1,0 +1,6 @@
+<% if @cat_of_many_names.nil? %>
+<form action='/named-cat' method="post">
+<input type='text' name='name'>
+<input type='submit' value='Submit'>
+</form>
+<% end %>

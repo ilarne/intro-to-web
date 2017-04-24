@@ -1,0 +1,14 @@
+<h2>My name is <%= @cat_of_many_names %></h2>
+
+<div style='border: medium dotted red; width:50%; overflow: hidden;'>
+<img src='http://bit.ly/1eze8aE' style=''>
+</div>
+
+<h3>My age is:<%=[5,5,5].reduce(:+)%></h3>
+
+<% if @cat_of_many_names.nil? %>
+<form action='/named-cat' method="post">
+<input type='text' name='name'>
+<input type='submit' value='Submit'>
+</form>
+<% end %>
