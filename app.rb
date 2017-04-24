@@ -1,6 +1,5 @@
 require 'sinatra'
 
-
 get '/' do
   "Hello Izzy!!!"
 end
